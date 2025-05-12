@@ -17,12 +17,12 @@ h1 {
 
 main{
     width: 70%;
-    height: 41%;
+    height: auto;
     background-color: #273142;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 14.2% 33.2%;
+
     margin-top: 50px;
     border: 1px solid #313D4F;
     border-radius: 11px;
