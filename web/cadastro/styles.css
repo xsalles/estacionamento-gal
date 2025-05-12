@@ -1,1 +1,72 @@
 
+header {
+  width: 100%;
+  color: white;
+  background-color: #273142;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 13px 0 !important;
+  text-align: center;
+}
+
+h1 {
+  font-size: 39px;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+main {
+  width: 70%;
+  height: 41%;
+  background-color: #273142;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14.2% 33.2%;
+  margin-top: 50px;
+  border: 1px solid #313d4f;
+  border-radius: 11px;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: white;
+  width: 335px !important;
+  align-items: center;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 335px;
+}
+
+form div input {
+  height: 48px;
+  background-color: #323d4e;
+  outline: 7px solid rgb(207, 207, 207, 0.11);
+  border-radius: 4px;
+  padding: 14px;
+  color: white;
+
+  &::placeholder {
+    font-size: 13px;
+  }
+}
+
+form button {
+  width: 255px;
+  height: 52px;
+  font-size: 17px;
+  background-color: #4880ff;
+  color: white;
+  border-radius: 11px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
