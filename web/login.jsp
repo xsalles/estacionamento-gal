@@ -38,7 +38,7 @@
         <script>showAlert("Login realizado com sucesso (ADMIN)");
 
             setTimeout(() => {
-                window.location.href = "dashboard/admin/index.html";
+                window.location.href = "dashboard/admin/index.jsp";
             }, 1000);
         </script>
         <%        } else {
