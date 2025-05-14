@@ -79,7 +79,7 @@
                 <td>
                     <form method="post" action="deleteFunc.jsp" onsubmit="return confirm('Deseja deletar este funcionário?')">
                     <input type="hidden" name="id" value="<%= rs.getInt("usuario_id") %>" />
-                    <button type="submit">Deletar</button>
+                    <button class="deleteVeic" type="submit">Deletar</button>
                   </form>
                 </td>
               </tr>

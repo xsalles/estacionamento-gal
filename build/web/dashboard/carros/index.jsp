@@ -54,7 +54,6 @@
                 <td>Placa</td>
                 <td>Entrada</td>
                 <td>Saída</td>
-                <td>Status</td>
                 <td>Ações</td>
               </tr>
             </thead>
@@ -71,15 +70,15 @@
                     while (rs.next()) {
               %>
               <tr>
-                <td><%= rs.getInt("vaga_id") %></td>
+                <td><%= rs.getInt("numero_vaga") %></td>
                 <td><%= rs.getString("placa") %></td>
                 <td><%= rs.getString("entrada") %></td>
                 <td><%= rs.getString("saida") %></td>
-                <td><%= rs.getString("status") %></td>
+                
                 <td>
-                    <form method="post" action="deleteFunc.jsp" onsubmit="return confirm('Deseja deletar este funcionário?')">
-                    <input type="hidden" name="id" value="<%= rs.getInt("vaga_id") %>" />
-                    <button type="submit">Deletar</button>
+                    <form method="post" action="deleteVeic.jsp" onsubmit="return confirm('Deseja deletar este funcionário?')">
+                    <input type="hidden" name="id" value="<%= rs.getInt("numero_vaga") %>" />
+                    <button class="deleteVeic" type="submit">Deletar</button>
                   </form>
                 </td>
               </tr>
